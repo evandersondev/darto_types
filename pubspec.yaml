@@ -1,6 +1,7 @@
 name: darto_types
 description: This is used for Darto and for all package to be create a plugin to Darto.
 version: 0.0.1
+repository: https://github.com/evandersondev/darto_types
 
 environment:
   sdk: ^3.8.1
