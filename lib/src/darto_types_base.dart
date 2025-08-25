@@ -67,6 +67,7 @@ abstract interface class Response {
   void setRender(RenderLayout layout);
   void sendFile(String filePath);
   void send([dynamic data]);
+  bool write(dynamic chunk, [String encoding = 'utf8', Function? callback]);
   void json(dynamic data);
   void error([dynamic e]);
   Future<void> render(String templateName, Map<String, dynamic> head);
