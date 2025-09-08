@@ -12,5 +12,5 @@ dart pub add darto_types
 
 ```yaml
 dependencies:
-  darto_types: 0.0.2
+  darto_types: 0.0.3
 ```

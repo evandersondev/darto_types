@@ -42,7 +42,9 @@ abstract interface class Request {
   String get ip;
   String get protocol;
   Map<String, dynamic> get context;
+  set context(Map<String, dynamic> _context);
   Map<String, dynamic> get session;
+  set session(Map<String, dynamic> _session);
   void Function()? onResponseFinished;
 
   List<String?> params();
